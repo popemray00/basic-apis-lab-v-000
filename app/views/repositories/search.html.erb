@@ -9,7 +9,7 @@
 
   <% @items.each do |item| %>
     <li>
-      <%= item["full_name"] %>
+      <%= item["name"] %>
       <%= item["description"] %>
       <%= link_to repo["html_url"], repo["html_url"] %>
     </li>
